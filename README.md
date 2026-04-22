@@ -70,3 +70,8 @@ It supports farmers throughout the entire crop lifecycle — from crop selection
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+### 🔹 Frontend
+cd frontend_new
+npm install
+npm start
