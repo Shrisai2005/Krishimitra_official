@@ -4,7 +4,7 @@ from google import genai
 router = APIRouter()
 
 # 🔑 use your working key
-client = genai.Client(api_key="AIzaSyCr83gkVYj2U7mfcsASuNfp6tWRgjhReEY")
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
 
 @router.post("/chat")
 def chat(query: str):

@@ -5,7 +5,7 @@ import re
 
 router = APIRouter()
 
-client = genai.Client(api_key="AIzaSyCr83gkVYj2U7mfcsASuNfp6tWRgjhReEY")
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
 
 @router.get("/schemes")
 def get_schemes(state: str, crop: str, land: str, income: str):

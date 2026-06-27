@@ -4,7 +4,7 @@ import json, re
 
 router = APIRouter()
 
-client = genai.Client(api_key="AIzaSyCr83gkVYj2U7mfcsASuNfp6tWRgjhReEY")
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
 
 @router.get("/market")
 def market_analysis(crop: str, state: str, district: str):

@@ -3,7 +3,7 @@ import requests
 
 router = APIRouter()
 
-API_KEY = "db6b69b90cd92ff95b269d2f34bcb0d3"  # 🔑 Replace with NEW key
+API_KEY = "YOUR_OPENWEATHERMAP_API_KEY"  # 🔑 Replace with NEW key
 
 @router.get("/weather")
 def get_weather(city: str):

@@ -9,7 +9,7 @@ from google import genai
 router = APIRouter()
 
 # 🔑 Gemini
-client = genai.Client(api_key="AIzaSyCr83gkVYj2U7mfcsASuNfp6tWRgjhReEY")
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
 
 # 📦 Load classes
 with open("classes.txt") as f:
